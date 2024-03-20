@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>App | k-kitai.github.io</title>
+    <link>https://k-kitai.github.io/tag/app/</link>
+      <atom:link href="https://k-kitai.github.io/tag/app/index.xml" rel="self" type="application/rss+xml" />
+    <description>App</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>ja-jp</language><lastBuildDate>Tue, 19 Mar 2024 21:49:46 +0900</lastBuildDate>
+    <image>
+      <url>https://k-kitai.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>App</title>
+      <link>https://k-kitai.github.io/tag/app/</link>
+    </image>
+    
+    <item>
+      <title>MinimalDayPlanner</title>
+      <link>https://k-kitai.github.io/project/minimaldayplanner/</link>
+      <pubDate>Tue, 19 Mar 2024 21:49:46 +0900</pubDate>
+      <guid>https://k-kitai.github.io/project/minimaldayplanner/</guid>
+      <description>&lt;p&gt;一日の行動計画と行動記録を同じ画面で行うためのAndroidアプリ「MinimalDayPlanner」を開発しました。&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;アプリのスクリーンショット&#34; srcset=&#34;
+               /project/minimaldayplanner/screenshot_s_hu91d9e71a7da00b1bcb5dc5454de12545_54692_21026cab9f1064b6c959803f11c5e3c3.webp 400w,
+               /project/minimaldayplanner/screenshot_s_hu91d9e71a7da00b1bcb5dc5454de12545_54692_590439a6dffb53dbb788b1e975bb35dd.webp 760w,
+               /project/minimaldayplanner/screenshot_s_hu91d9e71a7da00b1bcb5dc5454de12545_54692_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://k-kitai.github.io/project/minimaldayplanner/screenshot_s_hu91d9e71a7da00b1bcb5dc5454de12545_54692_21026cab9f1064b6c959803f11c5e3c3.webp&#34;
+               width=&#34;272&#34;
+               height=&#34;600&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;開発理由&#34;&gt;開発理由&lt;/h2&gt;
+&lt;p&gt;一日の間にこなしたい（こなせる）仕事とその時間配分を精度良く考えるためには、計画通りにいかなかった際の差分を見てフィードバックを取ることが必要だと思ったのですが、
+予定表と行動記録の両機能を持ったアプリがあまりなく、手帳に書くのもカレンダーアプリを使う(予定と行動記録を別々のカレンダーに記録する)のも面倒でした。
+結局テキスト編集アプリでそれを行っていたのですが、入力の切り替えや表っぽく見えるようにする整形が若干手間だったので必要な操作を括りだして簡素なUIで実現してみました。&lt;/p&gt;
+&lt;h2 id=&#34;アピールポイント&#34;&gt;アピールポイント&lt;/h2&gt;
+&lt;p&gt;アプリは1画面のみで入門書レベルの拙作なうえに、行動の予定時間・記録時間を数字8桁で入力させてそのまま表示しています。
+いろいろと手抜きですが、編集時のポップアップや画面遷移、見た目の修飾がないということは認知的な負荷が少ないという利点でもあります。
+（日付だけはDatePickerのポップアップからの入力です。）
+クリップボードへの出力ができるので、一日の終わりに別のメモアプリ等に貼り付けて後で見返すとよいと思います。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;書式について&lt;/p&gt;
+&lt;p&gt;8桁の数字でどうやって時間を記録するのかを以下の例で説明します。
+テキストで表示していますがアプリの使い勝手や見た目はこれとほとんと同じです。
+12時00分から13時00分の間(これを&amp;quot;12001300&amp;quot;と表記)にお昼ご飯を食べる予定で、実際もその間で済んだ場合の記述が1行目です。
+「13時から15時まで宿題をするつもりだったが、実際には13時から14時30分までお昼寝をした。」というときの記述が2行目と3行目です。
+予定を実行しなかった、あるいは予定外の事柄を実行したときは、反対側の時刻の部分を&lt;code&gt;--------&lt;/code&gt;で埋めることにしています。&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;12001300_12001300 お昼ご飯
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;13001500_-------- 宿題
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;--------_13001430 お昼寝
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;とはいえ厳密なチェックをしているわけでは無いので、存在しない時刻や意味をなさない文字列を入力することもできてしまいます。
+項目の順序も自明ではないのでユーザーが任意に並び替えられるようにしています。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;おことわり&#34;&gt;おことわり&lt;/h2&gt;
+&lt;p&gt;個人用途で開発しある程度満足しているのと、先に述べた操作時の「認知的な負荷」を上げないためにも機能拡張は考えていません。
+気が向いたときにUIを整え、バグがあった場合は修正します。&lt;/p&gt;
+&lt;p&gt;開発者は、本アプリを利用したことによるいかなる損害に関してもその責任を負いかねます。&lt;/p&gt;
+&lt;h2 id=&#34;プライバシーポリシー&#34;&gt;プライバシーポリシー&lt;/h2&gt;
+&lt;p&gt;MinimalDayPlanner は完全にオフラインで動作し、ユーザーに関する情報を収集することはありません。
+ユーザーが入力したテキストはデバイス内に保存され、アプリの外部に送信されることはありません。&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
