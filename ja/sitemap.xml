@@ -2,11 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://k-kitai.github.io/post/memo_omegaconf_hydra_lightning/</loc>
+    <loc>https://k-kitai.github.io/memo/</loc>
     <lastmod>2024-04-15T10:45:56+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://k-kitai.github.io/post/</loc>
+    <loc>https://k-kitai.github.io/memo/omegaconf_hydra_lightning/</loc>
     <lastmod>2024-04-15T10:45:56+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
@@ -73,6 +73,10 @@
                 hreflang="ja-jp"
                 href="https://k-kitai.github.io/project/"
                 />
+  </url><url>
+    <loc>https://k-kitai.github.io/post/</loc>
+    <lastmod>2023-11-21T15:42:06+09:00</lastmod>
+    <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://k-kitai.github.io/note/</loc>
     <lastmod>2023-10-26T14:36:10+09:00</lastmod>

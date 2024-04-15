@@ -14,9 +14,9 @@
     
     <item>
       <title>OmegaConfとHydraとPyTorch Lightningについてメモ</title>
-      <link>https://k-kitai.github.io/post/memo_omegaconf_hydra_lightning/</link>
+      <link>https://k-kitai.github.io/memo/omegaconf_hydra_lightning/</link>
       <pubDate>Mon, 15 Apr 2024 10:45:56 +0900</pubDate>
-      <guid>https://k-kitai.github.io/post/memo_omegaconf_hydra_lightning/</guid>
+      <guid>https://k-kitai.github.io/memo/omegaconf_hydra_lightning/</guid>
       <description>&lt;p&gt;既存の深層学習モデルのPyTorch実装を使おうとしたら、他にもいろいろなライブラリが使われていたのでざっくり整理する。&lt;/p&gt;
 &lt;h1 id=&#34;pytorch-lightningとは&#34;&gt;PyTorch Lightningとは&lt;/h1&gt;
 &lt;p&gt;&lt;a href=&#34;https://lightning.ai/pytorch-lightning&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PyTorch Lightning&lt;/a&gt;はPyTorchをラップして簡単に使えるようにしてくれるPythonライブラリ。開発は&lt;a href=&#34;https://lightning.ai&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Lightning AI&lt;/a&gt;。&lt;/p&gt;
