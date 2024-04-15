@@ -274,14 +274,12 @@
 
   
 
-<meta name="description" content="1日の行動計画と記録のためのシンプルなアプリ" />
+<meta name="description" content="既存の深層学習モデルのPyTorch実装を使おうとしたら、他" />
 
 
 
-  <link rel="alternate" hreflang="en" href="https://k-kitai.github.io/en/project/minimaldayplanner/" />
-
-<link rel="alternate" hreflang="ja-jp" href="https://k-kitai.github.io/project/minimaldayplanner/" />
-<link rel="canonical" href="https://k-kitai.github.io/project/minimaldayplanner/" />
+<link rel="alternate" hreflang="ja-jp" href="https://k-kitai.github.io/post/memo_omegaconf_hydra_lightning/" />
+<link rel="canonical" href="https://k-kitai.github.io/post/memo_omegaconf_hydra_lightning/" />
 
 
 
@@ -320,18 +318,18 @@
 
 <meta property="og:type" content="article" />
 <meta property="og:site_name" content="k-kitai.github.io" />
-<meta property="og:url" content="https://k-kitai.github.io/project/minimaldayplanner/" />
-<meta property="og:title" content="MinimalDayPlanner | k-kitai.github.io" />
-<meta property="og:description" content="1日の行動計画と記録のためのシンプルなアプリ" /><meta property="og:image" content="https://k-kitai.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="ja-jp" />
+<meta property="og:url" content="https://k-kitai.github.io/post/memo_omegaconf_hydra_lightning/" />
+<meta property="og:title" content="OmegaConfとHydraとPyTorch Lightningについてメモ | k-kitai.github.io" />
+<meta property="og:description" content="既存の深層学習モデルのPyTorch実装を使おうとしたら、他" /><meta property="og:image" content="https://k-kitai.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="ja-jp" />
 
   
     <meta
       property="article:published_time"
-      content="2024-03-19T21:49:46&#43;09:00"
+      content="2024-04-15T10:45:56&#43;09:00"
     />
   
   
-    <meta property="article:modified_time" content="2024-03-19T21:49:46&#43;09:00">
+    <meta property="article:modified_time" content="2024-04-15T10:45:56&#43;09:00">
   
 
 
@@ -346,21 +344,23 @@
 
 
 
+  
+
 
 
 
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Article",
+  "@type": "BlogPosting",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://k-kitai.github.io/project/minimaldayplanner/"
+    "@id": "https://k-kitai.github.io/post/memo_omegaconf_hydra_lightning/"
   },
-  "headline": "MinimalDayPlanner",
+  "headline": "OmegaConfとHydraとPyTorch Lightningについてメモ",
   
-  "datePublished": "2024-03-19T21:49:46+09:00",
-  "dateModified": "2024-03-19T21:49:46+09:00",
+  "datePublished": "2024-04-15T10:45:56+09:00",
+  "dateModified": "2024-04-15T10:45:56+09:00",
   
   "author": {
     "@type": "Person",
@@ -375,7 +375,7 @@
       "url": "https://k-kitai.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_3.png"
     }
   },
-  "description": "1日の行動計画と記録のためのシンプルなアプリ"
+  "description": "既存の深層学習モデルのPyTorch実装を使おうとしたら、他"
 }
 </script>
 
@@ -397,7 +397,7 @@
 
 
   
-  <title>MinimalDayPlanner | k-kitai.github.io</title>
+  <title>OmegaConfとHydraとPyTorch Lightningについてメモ | k-kitai.github.io</title>
 
   
   
@@ -421,7 +421,7 @@
 </head>
 
 
-<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="d5503642086e80d8508af9e98066af4e" >
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="3c676d7752d62853c2039351f7028838" >
 
   
   
@@ -715,22 +715,6 @@
 
         
         
-        <li class="nav-item dropdown i18n-dropdown">
-          <a href="#" class="nav-link " data-toggle="dropdown"
-             aria-haspopup="true" aria-label="言語">
-            <i class="fas fa-globe mr-1" aria-hidden="true"></i></a>
-          <div class="dropdown-menu">
-            <div class="dropdown-item dropdown-item-active">
-              <span>日本語</span>
-            </div>
-            
-            <a class="dropdown-item" href="https://k-kitai.github.io/en/project/minimaldayplanner/">
-              <span>English</span>
-            </a>
-            
-          </div>
-        </li>
-        
 
       </ul>
 
@@ -746,7 +730,7 @@
     
     
 
-    <article class="article article-project">
+    <article class="article">
 
   
 
@@ -768,7 +752,7 @@
   
   
 <div class="article-container pt-3">
-  <h1>MinimalDayPlanner</h1>
+  <h1>OmegaConfとHydraとPyTorch Lightningについてメモ</h1>
 
   
 
@@ -797,12 +781,17 @@
     
       
     
-    3月 19, 2024
+    4月 15, 2024
   </span>
   
 
   
 
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    2 分で読める
+  </span>
   
 
   
@@ -829,64 +818,22 @@
   <div class="article-container">
 
     <div class="article-style">
-      <p>一日の行動計画と行動記録を同じ画面で行うためのAndroidアプリ「MinimalDayPlanner」を開発しました。</p>
-<p>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<figure  >
-  <div class="d-flex justify-content-center">
-    <div class="w-100" ><img alt="アプリのスクリーンショット" srcset="
-               /project/minimaldayplanner/screenshot_s_hu91d9e71a7da00b1bcb5dc5454de12545_54692_21026cab9f1064b6c959803f11c5e3c3.webp 400w,
-               /project/minimaldayplanner/screenshot_s_hu91d9e71a7da00b1bcb5dc5454de12545_54692_590439a6dffb53dbb788b1e975bb35dd.webp 760w,
-               /project/minimaldayplanner/screenshot_s_hu91d9e71a7da00b1bcb5dc5454de12545_54692_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
-               src="/project/minimaldayplanner/screenshot_s_hu91d9e71a7da00b1bcb5dc5454de12545_54692_21026cab9f1064b6c959803f11c5e3c3.webp"
-               width="272"
-               height="600"
-               loading="lazy" data-zoomable /></div>
-  </div></figure>
-</p>
-<h2 id="開発理由">開発理由</h2>
-<p>一日の間にこなしたい（こなせる）仕事とその時間配分を精度良く考えるためには、計画通りにいかなかった際の差分を見てフィードバックを取ることが必要だと思ったのですが、
-予定表と行動記録の両機能を持ったアプリがあまりなく、手帳に書くのもカレンダーアプリを使う(予定と行動記録を別々のカレンダーに記録する)のも面倒でした。
-結局テキスト編集アプリでそれを行っていたのですが、入力の切り替えや表っぽく見えるようにする整形が若干手間だったので必要な操作を括りだして簡素なUIで実現してみました。</p>
-<h2 id="アピールポイント">アピールポイント</h2>
-<p>アプリは1画面のみで入門書レベルの拙作なうえに、行動の予定時間・記録時間を数字8桁で入力させてそのまま表示しています。
-いろいろと手抜きですが、編集時のポップアップや画面遷移、見た目の修飾がないということは認知的な負荷が少ないという利点でもあります。
-（日付だけはDatePickerのポップアップからの入力です。）
-クリップボードへの出力ができるので、一日の終わりに別のメモアプリ等に貼り付けて後で見返すとよいと思います。</p>
-<blockquote>
-<p>書式について</p>
-<p>8桁の数字でどうやって時間を記録するのかを以下の例で説明します。
-テキストで表示していますがアプリの使い勝手や見た目はこれとほとんと同じです。
-12時00分から13時00分の間(これを&quot;12001300&quot;と表記)にお昼ご飯を食べる予定で、実際もその間で済んだ場合の記述が1行目です。
-「13時から15時まで宿題をするつもりだったが、実際には13時から14時30分までお昼寝をした。」というときの記述が2行目と3行目です。
-予定を実行しなかった、あるいは予定外の事柄を実行したときは、反対側の時刻の部分を<code>--------</code>で埋めることにしています。</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"><span class="line"><span class="ln">1</span><span class="cl">12001300_12001300 お昼ご飯
-</span></span><span class="line"><span class="ln">2</span><span class="cl">13001500_-------- 宿題
-</span></span><span class="line"><span class="ln">3</span><span class="cl">--------_13001430 お昼寝
-</span></span></code></pre></div><p>とはいえ厳密なチェックをしているわけでは無いので、存在しない時刻や意味をなさない文字列を入力することもできてしまいます。
-項目の順序も自明ではないのでユーザーが任意に並び替えられるようにしています。</p>
-</blockquote>
-<h2 id="おことわり">おことわり</h2>
-<p>個人用途で開発しある程度満足しているのと、先に述べた操作時の「認知的な負荷」を上げないためにも機能拡張は考えていません。
-気が向いたときにUIを整え、バグがあった場合は修正します。</p>
-<p>開発者は、本アプリを利用したことによるいかなる損害に関してもその責任を負いかねます。</p>
-<h2 id="プライバシーポリシー">プライバシーポリシー</h2>
-<p>MinimalDayPlanner は完全にオフラインで動作し、ユーザーに関する情報を収集することはありません。
-ユーザーが入力したテキストはデバイス内に保存され、アプリの外部に送信されることはありません。</p>
+      <p>既存の深層学習モデルのPyTorch実装を使おうとしたら、他にもいろいろなライブラリが使われていたのでざっくり整理する。</p>
+<h1 id="pytorch-lightningとは">PyTorch Lightningとは</h1>
+<p><a href="https://lightning.ai/pytorch-lightning" target="_blank" rel="noopener">PyTorch Lightning</a>はPyTorchをラップして簡単に使えるようにしてくれるPythonライブラリ。開発は<a href="https://lightning.ai" target="_blank" rel="noopener">Lightning AI</a>。</p>
+<p>例えばPyTorchの<a href="https://pytorch.org/docs/stable/generated/torch.nn.Module.html" target="_blank" rel="noopener"><code>nn.Module</code></a>クラスを継承して実装したネットワークを<a href="https://lightning.ai/docs/pytorch/stable/common/lightning_module.html" target="_blank" rel="noopener"><code>LightningModule</code></a>クラスでくるみ、<code>**.fit(train_x, train_y)</code>くらいの直感的なメソッドで学習できるようになる。</p>
+<h1 id="hydraとは">Hydraとは</h1>
+<p><a href="https://hydra.cc/" target="_blank" rel="noopener">Hydra</a>は機械学習の定型的な処理に特化したスクリプトの記述を助けるPythonライブラリ。開発はMeta (旧 Facebook)。ディレクトリに階層的に保存されたYAML/TOML等のテキストファイルや環境変数、コマンド引数などを参照してすべてのオプションを解決・統合した上で、(この部分はほとんどOmegaConfの機能)、ひとつのPythonオブジェクトとしてエントリポイントの関数(<code>@hydra.main</code>デコレータをつけて指定)に渡してくれる。また、特定の形式で書かれたPythonオブジェクトを読み込んでクラスのインスタンス化もしてくれる<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>。</p>
+<h1 id="omegaconfとは">OmegaConfとは</h1>
+<p><a href="https://github.com/omry/omegaconf" target="_blank" rel="noopener">OmegaConf</a>はスクリプトに必要な設定を階層的に保存されたYAML/TOML等のテキストファイルや環境変数などを参照して解決し、ひとつのオブジェクトにまとめてくれるPythonライブラリ。開発はOmry Yadan氏(Hydraの開発者でもある)。</p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p><a href="https://hydra.cc/docs/advanced/instantiate_objects/overview/" target="_blank" rel="noopener">Instantiating objects with Hydra</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
 
     </div>
 
@@ -898,7 +845,9 @@
 
 <div class="article-tags">
   
-  <a class="badge badge-light" href="/tag/app/">App</a>
+  <a class="badge badge-light" href="/tag/python/">Python</a>
+  
+  <a class="badge badge-light" href="/tag/pytorch/">Pytorch</a>
   
 </div>
 
@@ -916,7 +865,7 @@
   <a
     target="_blank" rel="noopener"
     class="m-1 rounded-md bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral-300 dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-    href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fk-kitai.github.io%2Fproject%2Fminimaldayplanner%2F&amp;text=MinimalDayPlanner"
+    href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fk-kitai.github.io%2Fpost%2Fmemo_omegaconf_hydra_lightning%2F&amp;text=OmegaConf%E3%81%A8Hydra%E3%81%A8PyTorch&#43;Lightning%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%E3%83%A1%E3%83%A2"
     title="X"
     aria-label="X"
     id="share-link-x"
@@ -934,7 +883,7 @@
   <a
     target="_blank" rel="noopener"
     class="m-1 rounded-md bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral-300 dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-    href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fk-kitai.github.io%2Fproject%2Fminimaldayplanner%2F&amp;t=MinimalDayPlanner"
+    href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fk-kitai.github.io%2Fpost%2Fmemo_omegaconf_hydra_lightning%2F&amp;t=OmegaConf%E3%81%A8Hydra%E3%81%A8PyTorch&#43;Lightning%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%E3%83%A1%E3%83%A2"
     title="Facebook"
     aria-label="Facebook"
     id="share-link-facebook"
@@ -1019,22 +968,6 @@
 
 
 
-    <div class="project-related-pages content-widget-hr">
-      
-      
-
-      
-      
-      
-
-      
-      
-      
-
-      
-      
-      
-    </div>
   </div>
 </article>
   </div>

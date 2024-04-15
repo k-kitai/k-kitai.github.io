@@ -2,6 +2,36 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://k-kitai.github.io/post/memo_omegaconf_hydra_lightning/</loc>
+    <lastmod>2024-04-15T10:45:56+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://k-kitai.github.io/post/</loc>
+    <lastmod>2024-04-15T10:45:56+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://k-kitai.github.io/tag/python/</loc>
+    <lastmod>2024-04-15T10:45:56+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://k-kitai.github.io/tag/pytorch/</loc>
+    <lastmod>2024-04-15T10:45:56+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://k-kitai.github.io/tags/</loc>
+    <lastmod>2024-04-15T10:45:56+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://k-kitai.github.io/en/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja-jp"
+                href="https://k-kitai.github.io/tags/"
+                />
+  </url><url>
     <loc>https://k-kitai.github.io/tag/app/</loc>
     <lastmod>2024-03-19T21:49:46+09:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -44,19 +74,9 @@
                 href="https://k-kitai.github.io/project/"
                 />
   </url><url>
-    <loc>https://k-kitai.github.io/tags/</loc>
-    <lastmod>2024-03-19T21:49:46+09:00</lastmod>
+    <loc>https://k-kitai.github.io/note/</loc>
+    <lastmod>2023-10-26T14:36:10+09:00</lastmod>
     <changefreq>weekly</changefreq>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="https://k-kitai.github.io/en/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja-jp"
-                href="https://k-kitai.github.io/tags/"
-                />
   </url><url>
     <loc>https://k-kitai.github.io/</loc>
     <lastmod>2022-10-24T00:00:00+00:00</lastmod>
@@ -140,8 +160,5 @@
                 hreflang="ja-jp"
                 href="https://k-kitai.github.io/categories/"
                 />
-  </url><url>
-    <loc>https://k-kitai.github.io/post/</loc>
-    <changefreq>weekly</changefreq>
   </url>
 </urlset>
