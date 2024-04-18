@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!-- This site was created with Hugo Blox. https://hugoblox.com -->
-<!-- Last Published: 2024年4月15日 --><html lang="ja-jp" >
+<!-- Last Published: 2024年4月18日 --><html lang="ja-jp" >
 
 
 <head>
@@ -319,7 +319,7 @@
 <meta property="og:type" content="website" />
 <meta property="og:site_name" content="k-kitai.github.io" />
 <meta property="og:url" content="https://k-kitai.github.io/memo/omegaconf_hydra_lightning/" />
-<meta property="og:title" content="OmegaConfとHydraとPyTorch Lightningについてメモ | k-kitai.github.io" />
+<meta property="og:title" content="OmegaConfとHydraとPyTorch Lightningに関するメモ | k-kitai.github.io" />
 <meta property="og:description" content="既存の深層学習モデルのPyTorch実装を使おうとしたら、他" /><meta property="og:image" content="https://k-kitai.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="ja-jp" />
 
   
@@ -329,7 +329,7 @@
     />
   
   
-    <meta property="article:modified_time" content="2024-04-15T10:45:56&#43;09:00">
+    <meta property="article:modified_time" content="2024-04-18T00:00:00&#43;00:00">
   
 
 
@@ -354,7 +354,7 @@
 
 
   
-  <title>OmegaConfとHydraとPyTorch Lightningについてメモ | k-kitai.github.io</title>
+  <title>OmegaConfとHydraとPyTorch Lightningに関するメモ | k-kitai.github.io</title>
 
   
   
@@ -739,7 +739,7 @@
   
   
 <div class="article-container pt-3">
-  <h1>OmegaConfとHydraとPyTorch Lightningについてメモ</h1>
+  <h1>OmegaConfとHydraとPyTorch Lightningに関するメモ</h1>
 
   
 
@@ -767,8 +767,10 @@
     
     
       
+          最終更新
+      
     
-    4月 15, 2024
+    4月 18, 2024
   </span>
   
 
@@ -807,7 +809,7 @@
 <h1 id="hydraとは">Hydraとは</h1>
 <p><a href="https://hydra.cc/" target="_blank" rel="noopener">Hydra</a>は機械学習の定型的な処理に特化したスクリプトの記述を助けるPythonライブラリ。開発はMeta (旧 Facebook)。ディレクトリに階層的に保存されたYAML/TOML等のテキストファイルや環境変数、コマンド引数などを参照してすべてのオプションを解決・統合した上で、(この部分はほとんどOmegaConfの機能)、ひとつのPythonオブジェクトとしてエントリポイントの関数(<code>@hydra.main</code>デコレータをつけて指定)に渡してくれる。また、特定の形式で書かれたPythonオブジェクトを読み込んでクラスのインスタンス化もしてくれる<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>。</p>
 <h1 id="omegaconfとは">OmegaConfとは</h1>
-<p><a href="https://github.com/omry/omegaconf" target="_blank" rel="noopener">OmegaConf</a>はスクリプトに必要な設定を階層的に保存されたYAML/TOML等のテキストファイルや環境変数などを参照して解決し、ひとつのオブジェクトにまとめてくれるPythonライブラリ。開発はOmry Yadan氏(Hydraの開発者でもある)。</p>
+<p><a href="https://github.com/omry/omegaconf" target="_blank" rel="noopener">OmegaConf</a>はプログラムの実行に要するオプションの設定内容をYAML/TOML等のテキストファイルや環境変数などを参照して解決し、ひとつのオブジェクトにまとめてくれるPythonライブラリ。開発はOmry Yadan氏(Hydraの開発者でもある)。</p>
 <div class="footnotes" role="doc-endnotes">
 <hr>
 <ol>
@@ -847,7 +849,7 @@
   <a
     target="_blank" rel="noopener"
     class="m-1 rounded-md bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral-300 dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-    href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fk-kitai.github.io%2Fmemo%2Fomegaconf_hydra_lightning%2F&amp;text=OmegaConf%E3%81%A8Hydra%E3%81%A8PyTorch&#43;Lightning%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%E3%83%A1%E3%83%A2"
+    href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fk-kitai.github.io%2Fmemo%2Fomegaconf_hydra_lightning%2F&amp;text=OmegaConf%E3%81%A8Hydra%E3%81%A8PyTorch&#43;Lightning%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E3%83%A1%E3%83%A2"
     title="X"
     aria-label="X"
     id="share-link-x"
@@ -865,7 +867,7 @@
   <a
     target="_blank" rel="noopener"
     class="m-1 rounded-md bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral-300 dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-    href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fk-kitai.github.io%2Fmemo%2Fomegaconf_hydra_lightning%2F&amp;t=OmegaConf%E3%81%A8Hydra%E3%81%A8PyTorch&#43;Lightning%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%E3%83%A1%E3%83%A2"
+    href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fk-kitai.github.io%2Fmemo%2Fomegaconf_hydra_lightning%2F&amp;t=OmegaConf%E3%81%A8Hydra%E3%81%A8PyTorch&#43;Lightning%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E3%83%A1%E3%83%A2"
     title="Facebook"
     aria-label="Facebook"
     id="share-link-facebook"
