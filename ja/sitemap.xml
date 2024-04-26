@@ -2,19 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://k-kitai.github.io/memo/</loc>
-    <lastmod>2024-04-18T13:53:10+09:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://k-kitai.github.io/memo/omegaconf_hydra_lightning/</loc>
-    <lastmod>2024-04-18T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://k-kitai.github.io/tag/python/</loc>
-    <lastmod>2024-04-18T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://k-kitai.github.io/tag/pytorch/</loc>
+    <loc>https://k-kitai.github.io/event/</loc>
     <lastmod>2024-04-18T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
@@ -31,6 +19,34 @@
                 hreflang="ja-jp"
                 href="https://k-kitai.github.io/tags/"
                 />
+  </url><url>
+    <loc>https://k-kitai.github.io/event/hyperordered_wakate04/</loc>
+    <lastmod>2024-04-18T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://k-kitai.github.io/tag/%E3%83%9B%E3%82%B9%E3%82%BF%E3%83%BC%E7%99%BA%E8%A1%A8/</loc>
+    <lastmod>2024-04-18T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://k-kitai.github.io/memo/</loc>
+    <lastmod>2024-04-26T18:33:00+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://k-kitai.github.io/memo/config_swap/</loc>
+    <lastmod>2024-04-26T18:33:00+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://k-kitai.github.io/memo/omegaconf_hydra_lightning/</loc>
+    <lastmod>2024-04-18T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://k-kitai.github.io/tag/python/</loc>
+    <lastmod>2024-04-18T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://k-kitai.github.io/tag/pytorch/</loc>
+    <lastmod>2024-04-18T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://k-kitai.github.io/tag/app/</loc>
     <lastmod>2024-03-19T21:49:46+09:00</lastmod>
