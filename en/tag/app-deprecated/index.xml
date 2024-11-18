@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>App-Deprecated | k-kitai.github.io</title><link>https://k-kitai.github.io/en/tag/app-deprecated/</link><atom:link href="https://k-kitai.github.io/en/tag/app-deprecated/index.xml" rel="self" type="application/rss+xml"/><description>App-Deprecated</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 19 Mar 2024 21:49:46 +0900</lastBuildDate><image><url>https://k-kitai.github.io/media/icon_hu10226378635250344412.png</url><title>App-Deprecated</title><link>https://k-kitai.github.io/en/tag/app-deprecated/</link></image><item><title>MinimalDayPlanner</title><link>https://k-kitai.github.io/en/project/minimaldayplanner/</link><pubDate>Tue, 19 Mar 2024 21:49:46 +0900</pubDate><guid>https://k-kitai.github.io/en/project/minimaldayplanner/</guid><description>&lt;blockquote>
+&lt;p>THIS APP IS DEPRECATED&lt;/p>
+&lt;/blockquote>
+&lt;p>I developed an app &amp;ldquo;MinimalDayPlanner&amp;rdquo; for planning and logging activities of a day.&lt;/p>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="Screenshot of the app" srcset="
+/project/minimaldayplanner/screenshot_s_hu47175663334711866.webp 400w,
+/project/minimaldayplanner/screenshot_s_hu98274328816781284.webp 760w,
+/project/minimaldayplanner/screenshot_s_hu9942189278524591759.webp 1200w"
+src="https://k-kitai.github.io/project/minimaldayplanner/screenshot_s_hu47175663334711866.webp"
+width="272"
+height="600"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;h2 id="features">Features&lt;/h2>
+&lt;p>This app is as simple as ones in beginner&amp;rsquo;s guides. A time span (start and end) is represented with an 8 digit string.
+I hope the naive design (no pop-ups, transition, and visual enhancement) helps to reduce the cognitive load on users.
+The entire list can be exported to the clipboard, so you can paste it on other app and do further analysis over a longer time scale.&lt;/p>
+&lt;blockquote>
+&lt;p>No strict format checking is done.
+For example, you can put strings that does not make sense as a time span.
+Items are need not be ordered chronologically. The ordering is totally upto a user.&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="declaration">Declaration&lt;/h2>
+&lt;p>This app is primaliry designed for my needs and do suffices.
+I don&amp;rsquo;t expect an extensive enhancement of the features of this app.&lt;/p>
+&lt;p>The developer of this app shall not be liable for any damages caused by using this app.&lt;/p>
+&lt;h2 id="privacy-policy">Privacy Policy&lt;/h2>
+&lt;p>MinimalDayPlanner works completely offline. No user information is collected.
+The text input by a user is kept inside the device and never sent outside the app.&lt;/p></description></item></channel></rss>
